@@ -19,7 +19,7 @@ gem install rmagick
 Just run the script 
 
 ```bash
-./appicongen.rb my_icon.png [iphone|ipad|universal]
+./appicongen.rb my_icon.png
 ```
 
 The first argument is the filename of the icon file. By default, only iPhone icon files are generated. 
