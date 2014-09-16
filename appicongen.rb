@@ -15,10 +15,9 @@ else
     puts "no file named #{img_name}"
     exit 
   end
-
-  device = (ARGV.count > 1 ? ARGV[1] : 'iphone')
 end
 
+device = (ARGV.count > 1 ? ARGV[1] : 'iphone')
 img = ImageList.new(img_name)
 
 # only iOS 7.0 and above
