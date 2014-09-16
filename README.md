@@ -3,7 +3,7 @@ appicongen ・ App Icon Generator
 
 ## Introduction
 
-The Ruby script `appicongen` is for automatic generation of icon files for iPhone and/or iPad apps (iOS 7 and above). It uses `imagemagick` and the gem `rmagick`.
+The Ruby script `appicongen` automatically generates icon files for iPhone and/or iPad apps (iOS 7 and above). It uses `imagemagick` and the gem `rmagick`.
 
 ## Installation
 
