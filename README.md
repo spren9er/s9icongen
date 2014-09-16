@@ -22,5 +22,5 @@ Just run the script
 ./appicongen.rb my_icon.png
 ```
 
-The first argument is the filename of the icon file. By default, only iPhone icon files are generated. 
+The first argument is the filename of the icon file. By default only iPhone icon files are generated. 
 If one supplies a second argument (`ipad` or `universal`), iPad icon files or iPhone/iPad icon files are generated respectively.
