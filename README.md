@@ -1,4 +1,4 @@
-appicongen ・ App Icon Generator
+appicongen ・ App icon generator
 ================================
 
 ## Introduction
