@@ -80,8 +80,8 @@ def log(size, filename)
   puts "#{s}: #{filename}"
 end
 
-system('rm icons/*.png')
-system('rm icons/iTunesArtwork')
+exec('rm icons/*.png')
+exec('rm icons/iTunesArtwork')
 sizes.each do |s|
   if device == 'universal' || s[:idiom].start_with?(device)
     size = s[:scale]*s[:size]
