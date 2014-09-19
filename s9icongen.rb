@@ -80,6 +80,8 @@ def log(size, filename)
   puts "#{s}: #{filename}"
 end
 
+`rm icons/*.png`
+`rm icons/iTunesArtwork`
 sizes.each do |s|
   if device == 'universal' || s[:idiom].start_with?(device)
     size = s[:scale]*s[:size]
