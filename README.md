@@ -24,3 +24,11 @@ Just run the script
 
 The first argument is the filename of the icon file. By default only iPhone icon files are generated. 
 If one supplies a second argument (`ipad` or `universal`), iPad icon files or iPhone/iPad icon files are generated respectively.
+
+## Rubymotion
+
+Add the icon files to your resources directory and add the following line to your rakefile
+
+```ruby
+app.icons = Dir.glob('resources/Icon*.png').map(|icon| icon.split('/').last}
+```
