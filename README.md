@@ -29,5 +29,5 @@ The first argument is the filename of the icon image (should be quadratic and at
 Add the icon files to your resources directory and add the following line to your rakefile
 
 ```ruby
-app.icons = Dir.glob('resources/Icon*.png').map(|icon| icon.split('/').last}
+app.icons = Dir.glob('resources/Icon*.png').map{|icon| icon.split('/').last}
 ```
