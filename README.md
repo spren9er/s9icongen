@@ -53,7 +53,7 @@ will generate
 1024x1024: icons/iTunesArtwork@2x
 ```
 
-## Rubymotion
+## RubyMotion
 
 Add the icon files to your resources directory and add the following line to your rakefile
 
