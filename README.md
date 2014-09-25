@@ -24,6 +24,35 @@ Just run the script
 
 The first argument is the filename of the icon image (should be quadratic and at least 1024x1024 in size). By default only iPhone icon files are generated. If one supplies a second argument (`ipad` or `universal`), iPad icon files or iPhone/iPad icon files are generated respectively.
 
+## Example 
+
+The command
+
+```bash
+./s9icongen.rb my_icon.png universal
+```
+
+will generate
+
+```bash
+    29x29: icons/Icon-29.png
+    58x58: icons/Icon-29@2x.png
+    87x87: icons/Icon-29@3x.png
+    80x80: icons/Icon-40@2x.png
+  120x120: icons/Icon-40@3x.png
+  120x120: icons/Icon-60@2x.png
+  180x180: icons/Icon-60@3x.png
+    29x29: icons/Icon-29.png
+    58x58: icons/Icon-29@2x.png
+    40x40: icons/Icon-40.png
+    80x80: icons/Icon-40@2x.png
+    76x76: icons/Icon-76.png
+  152x152: icons/Icon-76@2x.png
+  120x120: icons/Icon-120.png
+  512x512: icons/iTunesArtwork
+1024x1024: icons/iTunesArtwork@2x
+```
+
 ## Rubymotion
 
 Add the icon files to your resources directory and add the following line to your rakefile
