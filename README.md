@@ -1,5 +1,5 @@
-s9icongen ・ App icon generator
-===============================
+s9icongen - App icon generator
+==============================
 
 ## Introduction
 
